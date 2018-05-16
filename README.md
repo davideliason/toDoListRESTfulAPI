@@ -13,6 +13,10 @@ REST is an acronym for Representational State Transfer. It is web standards arch
  
 RESTful applications use HTTP requests to perform four operations termed as CRUD (C: create, R: read, U: update, and D: delete). Create and/or update is used to post data, get for reading/listing data, and delete to remove data.
 
+Upon an **HTTP request** (clicking a link, submitting a form, runing a search for example) from the client to the server, The request includes a URL identifying the affected resource, an action method (for example to get, delete, or post the resource), and may include additional information encoded in URL parameters (the field-value pairs sent via a query string), as POST data (data sent by the HTTP POST method), or in associated cookies.
+
+Web servers wait for client request messages, process them when they arrive, and reply to the web browser with an **HTTP response** message. The response contains a status line indicating whether or not the request succeeded
+
 RESTful is composed of methods such as; base URL, URL, media types, etc.
 
 ## Project Scope and Objectives
