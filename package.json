@@ -10,5 +10,11 @@
     "node"
   ],
   "author": "DE",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
