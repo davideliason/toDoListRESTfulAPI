@@ -22,5 +22,15 @@ RESTful is composed of methods such as; base URL, URL, media types, etc.
 ## Project Scope and Objectives
 This repo will create a RESTful API using Node.js, using MongoDB
 
+## To Run
+First, clone the repo and cd into the repo
+
+In your CLI/Terminal:
+$ npm install  
+1. [Tab #1] mongod
+2. [Tab #2] npm run start
+
+In browser, open to 'localhost:3000'
+
 ### Resources
 [tutorial](https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd)
